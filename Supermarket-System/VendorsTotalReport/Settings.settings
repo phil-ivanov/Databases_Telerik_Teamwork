@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VendorsTotalReport" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SqLiteConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=..\..\..\..\Resources\supermarket-database.db;Version=3;Pooling=False;Max Pool Size=100</Value>
+    </Setting>
+    <Setting Name="MongoConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mongodb://localhost/</Value>
+    </Setting>
+    <Setting Name="MongoDatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SupermarketDatabase</Value>
+    </Setting>
+    <Setting Name="MongoCollectionName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ProductsReports</Value>
+    </Setting>
+    <Setting Name="SqliteTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ProductReports</Value>
+    </Setting>
+    <Setting Name="MongoVendorCollectionName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">VendorExpenses</Value>
+    </Setting>
+    <Setting Name="ExcelBinTemplate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\Resources\Excel.bin</Value>
+    </Setting>
+    <Setting Name="ReportFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\Resources\Vendors-Total-Report.xlsx</Value>
+    </Setting>
+    <Setting Name="ExcelConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=..\..\..\..\Resources\Vendors-Total-Report.xlsx;Extended Properties="Excel 12.0;HDR=YES;"</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

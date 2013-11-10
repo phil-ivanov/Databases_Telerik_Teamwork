@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductReports" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MongoConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mongodb://localhost/</Value>
+    </Setting>
+    <Setting Name="ReportsTargetDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">../../../../Resources/</Value>
+    </Setting>
+    <Setting Name="MongoDatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SupermarketDatabase</Value>
+    </Setting>
+    <Setting Name="MongoCollectionName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ProductsReports</Value>
+    </Setting>
+    <Setting Name="MongoReportsFolderName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Product-Reports</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
